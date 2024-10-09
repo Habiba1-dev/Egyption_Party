@@ -1,0 +1,26 @@
+@media screen and (max-width:390px) {
+    body{
+        overflow-x: hidden;
+    }
+    #Home {
+        height: 250px;
+    }
+
+    #Home h2 {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    #countdown .container {
+        padding: 0px;
+    }
+
+    #countdown .timer {
+        padding: 0px;
+    }
+    #contact-us{
+        padding: 10px;
+    }
+    .forms{
+        padding: 10px 0px;
+    }
+}

@@ -1,0 +1,214 @@
+
+:root{
+    scroll-behavior: auto;
+    --main-color: #D62E33;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    padding: 0px 10px;
+    color: #777;
+}
+
+#Home {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 660px;
+    color: white;
+}
+
+.overlay {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6));
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(214, 46, 51, 0.6); */
+}
+
+
+
+#Home h2 {
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+.openNav {
+    cursor: pointer;
+    font-size: 30px;
+    color: white !important;
+}
+
+.open a {
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.open a:hover ,#closebtn:hover ,.active {
+    color: var(--main-color) !important;
+    cursor: pointer;
+}
+/* .active{
+    color: var(--main-color)  !important;
+} */
+
+.anchors {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px
+
+}
+
+.content {
+    width: 100%;
+    padding: 16px;
+}
+
+#closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#slider {
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+#slider h2 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#slider p {
+    padding: 10px;
+    background-color: #ccc;
+    margin: 0;
+    display: none;
+}
+
+#slider .first p {
+    display: block;
+}
+
+#countdown {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+#countdown .timer {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+#countdown .container {
+    padding: 100px 0px;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    color: white;
+}
+
+footer .container {
+    padding: 50px 0px;
+}
+
+footer .container h2 {
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer .container .vip {
+    font-weight: 300;
+}
+
+footer .container p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+footer .container h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s;
+}
+.social i:hover{
+    background-color: var(--main-color);
+    color: white;
+    border: transparent;
+}
+
+
+.form-control {
+    border-radius: 0 !important;
+}
+textarea{
+    height: 200px;
+    resize: vertical;
+}
+#charCount {
+    color: var(--main-color) !important;
+    font-size: 20px;
+}
+
+span {
+    color: #444 !important;
+}
+.btn{
+    background-color: var(--main-color) !important;
+    color: white;
+    border-radius: 0px  ;
+    padding: 10px 20px;
+}
+.btn:hover{
+    color: white;
+}
